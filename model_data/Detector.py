@@ -61,6 +61,7 @@ class Detector:
                     displayText= "{}:{:.4f}".format(classLabel,classConfidence)
 
 
+
                     x,y,w,h =bbox
 
                     cv2.rectangle(image,(x,y),(x+w,y+h),color=classColor ,thickness=1)
